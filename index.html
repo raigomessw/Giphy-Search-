@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="Content-Security-Policy" content="default-src: http: https: 'self'" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Giphy API</title>
+
+</head>
+
+<body>
+
+    <form class="container">
+        <h2 class="title-text">Giphy Search</h2>
+        <div style="width:200px"><iframe allow="fullscreen" frameBorder="0" height="200" src="https://giphy.com/embed/lYv10cDlosFnA0toPb/video" width="200"></iframe></div>
+        <label for="search" class="text-search">Search</label>
+        <input id="search" class="search" type="search" />
+        <main id="button">
+            <a href="#" id="btnSearch" class="btnSearch">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span> Search
+            </a>
+        </main>
+        <!-- <button id="btnSearch" class="btnSearch">Go</button -->
+    </form>
+    <div class="divider"></div>
+    <div class="out"></div>
+
+    <script src="javaScript.js"></script>
+</body>
+
+</html>
